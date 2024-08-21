@@ -46,7 +46,7 @@ export default function attractionAndCuisine() {
               </h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
                 Discover the vibrant and diverse culinary scene of Islamabad, featuring a range of traditional and modern
-                dishes that showcase the city's rich cultural heritage.
+                dishes that showcase the city&rsquo;s rich cultural heritage.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -155,7 +155,7 @@ export default function attractionAndCuisine() {
                 <div className="p-4 bg-background">
                   <h3 className="text-xl font-bold">Pakistan Monument</h3>
                   <p className="text-sm text-muted-foreground">
-                    A striking architectural landmark celebrating Pakistan's history and unity.
+                    A striking architectural landmark celebrating Pakistan&rsquo;s history and unity.
                   </p>
                 </div>
               </div>
@@ -164,7 +164,7 @@ export default function attractionAndCuisine() {
                 <div className="p-4 bg-background">
                   <h3 className="text-xl font-bold">Margalla Hills</h3>
                   <p className="text-sm text-muted-foreground">
-                  The Margalla Hills are a picturesque hill range located within the Margalla Hills National Park, forming the northern boundary of Islamabad's Capital Territory.
+                  The Margalla Hills are a picturesque hill range located within the Margalla Hills National Park, forming the northern boundary of Islamabad&rsquo;s Capital Territory.
                   </p>
                 </div>
               </div>

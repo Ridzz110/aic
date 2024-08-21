@@ -29,29 +29,6 @@ export function LandingPage() {
         <meta name="description" content="Explore the rich history, culture, and cuisine of Islamabad, Pakistan. Discover attractions, accommodations, and more." />
         <meta name="keywords" content="Islamabad, Pakistan, Attractions, Culture, Cuisine, Travel Guide" />
         <link rel="canonical" href="https://yourdomain.com" />
-        {/* Open Graph / Facebook */}
-        <meta property="og:title" content="Discover Islamabad - A Guide to the Capital of Pakistan" />
-        <meta property="og:description" content="Explore the rich history, culture, and cuisine of Islamabad, Pakistan." />
-        <meta property="og:image" content="https://yourdomain.com/images/cover.jpg" />
-        <meta property="og:url" content="https://yourdomain.com" />
-        <meta property="og:type" content="website" />
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Discover Islamabad - A Guide to the Capital of Pakistan" />
-        <meta name="twitter:description" content="Explore the rich history, culture, and cuisine of Islamabad, Pakistan." />
-        <meta name="twitter:image" content="https://yourdomain.com/images/cover.jpg" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "Discover Islamabad",
-          "url": "https://yourdomain.com",
-          "description": "Explore the rich history, culture, and cuisine of Islamabad, Pakistan.",
-          "sameAs": [
-            "https://www.facebook.com/YourPage",
-            "https://twitter.com/YourPage",
-            "https://www.instagram.com/YourPage"
-          ]
-        }) }} />
       </Head>
       <header>
         <Navbar/>
@@ -128,7 +105,7 @@ export function LandingPage() {
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Cultural Immersion</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Immerse Yourself in Islamabad's Rich Heritage
+                  Immerse Yourself in Islamabad&rsquo;s Rich Heritage
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Discover the vibrant traditions, art, and music that make Pakistan a truly unique cultural
@@ -154,7 +131,7 @@ export function LandingPage() {
                 <div className="grid gap-1">
                   <h3 className="text-xl font-bold">Captivating architecture</h3>
                   <p className="text-muted-foreground">
-                  Islamabad's cultural heritage includes various archaeological sites, government buildings, shrines, stupas, landmarks, and national monuments.
+                  Islamabad&rsquo;s cultural heritage includes various archaeological sites, government buildings, shrines, stupas, landmarks, and national monuments.
                   </p>
                 </div>
               </div>
@@ -177,21 +154,21 @@ export function LandingPage() {
               <Image src={img5} alt="chelo kebab" className=" h-3/4 object-cover"/>
               <CardHeader className="px-6 py-4">
                 <CardTitle className="text-xl font-bold">Chelo Kebab from Omar Khayyam</CardTitle>
-                <CardDescription className="text-gray-600">Omar Khayyam’s Chelo Kebab has become the city’s most famous dish. It is a lamb dish cooked in a sauce with buttered and salted rice.</CardDescription>
+                <CardDescription className="text-gray-600">Omar Khayyam&rsquo;s Chelo Kebab has become the city&rsquo;s most famous dish. It is a lamb dish cooked in a sauce with buttered and salted rice.</CardDescription>
               </CardHeader>
             </Card>
             <Card className="max-w-sm rounded-lg overflow-hidden shadow-lg w-72">
               <Image src={img6} alt="karahi" className="h-3/4 object-cover"/>
               <CardHeader className="px-6 py-4">
                 <CardTitle className="text-xl font-bold">Chicken/Beef Karahi from Butt Karahi F8</CardTitle>
-                <CardDescription className="text-gray-600">A Butt Karahi is one of life’s certainties, and it will never go wrong. It would be prove a regret to miss out to have karahi experience in the city with their outdoor setup and Islamabad’s typical evening weather.</CardDescription>
+                <CardDescription className="text-gray-600">A Butt Karahi is one of life&rsquo;s certainties, and it will never go wrong. It would be prove a regret to miss out to have karahi experience in the city with their outdoor setup and Islamabad&rsquo;s typical evening weather.</CardDescription>
               </CardHeader>
             </Card>
             <Card className="max-w-sm rounded-lg overflow-hidden shadow-lg w-72">
               <Image src={img7} alt="chelo kebab" className=" h-3/4"/>
               <CardHeader className="px-6 py-4">
                 <CardTitle className="text-xl font-bold">Cheesecake from Burning Brownie</CardTitle>
-                <CardDescription className="text-gray-600">Burning Brownie’s cheesecake, on the other hand, is renowned for its excellence. The most fantastic cheesecake, without a doubt, comes from Burning Brownie.</CardDescription>
+                <CardDescription className="text-gray-600">Burning Brownie&rsquo;s cheesecake, on the other hand, is renowned for its excellence. The most fantastic cheesecake, without a doubt, comes from Burning Brownie.</CardDescription>
               </CardHeader>
             </Card>
 
@@ -206,7 +183,7 @@ export function LandingPage() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Find the Perfect Accommodation</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   From luxurious hotels to cozy guesthouses, Islamabad offers a range of accommodations to suit every
-                  traveler's needs.
+                  traveler&rsquo;s needs.
                 </p>
               </div>
             </div>
