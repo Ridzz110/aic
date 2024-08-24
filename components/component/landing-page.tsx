@@ -79,7 +79,7 @@ export function LandingPage() {
                   <h3 className="text-xl font-bold">Faisal Mosque</h3>
                   <p className="text-muted-foreground">
                     One of the largest mosques in South Asia, this architectural marvel is a stunning example of Islamic
-                    architecture.
+                    architect.
                   </p>
                 </div>
                 <div className="grid gap-1">
