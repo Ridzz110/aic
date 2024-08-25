@@ -1,20 +1,32 @@
-'use client';
+"use client";
 
-import React from 'react';
+import React from "react";
 
 const ContactPage = () => {
   return (
     <section className="py-16 px-6 bg-gray-50">
       <div className="container mx-auto max-w-3xl">
-        <h1 className="text-4xl font-extrabold text-center mb-12 text-gray-800">Contact Us</h1>
-        
+        <h1 className="text-4xl font-extrabold text-center mb-12 text-gray-800">
+          Contact Us
+        </h1>
+
         <div className="bg-white shadow-lg rounded-lg p-8">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-700">We'd Love to Hear From You!</h2>
-          <p className="text-gray-600 mb-8">Feel free to reach out with any questions or comments. We’re here to help!</p>
+          <h2 className="text-2xl font-semibold mb-6 text-gray-700">
+            We'd Love to Hear From You!
+          </h2>
+          <p className="text-gray-600 mb-8">
+            Feel free to reach out with any questions or comments. We’re here to
+            help!
+          </p>
 
           <form className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Name
+              </label>
               <input
                 type="text"
                 id="name"
@@ -24,7 +36,12 @@ const ContactPage = () => {
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Email
+              </label>
               <input
                 type="email"
                 id="email"
@@ -34,7 +51,12 @@ const ContactPage = () => {
               />
             </div>
             <div>
-              <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Subject</label>
+              <label
+                htmlFor="subject"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Subject
+              </label>
               <input
                 type="text"
                 id="subject"
@@ -44,7 +66,12 @@ const ContactPage = () => {
               />
             </div>
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Message
+              </label>
               <textarea
                 id="message"
                 name="message"

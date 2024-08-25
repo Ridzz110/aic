@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Artificial Intelligence Club Website
+
+Welcome to the official website of the Artificial Intelligence Club! This website serves as a hub for all things related to our club, including information about events, technology updates, community gatherings, and more.
+
+
+
+
+
+
+## Technologies Used
+
+- **Next.js**: A powerful React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: A utility-first CSS framework for creating highly customizable and responsive designs.
+- **React Icons**: A collection of popular icons to enhance the visual appeal of the website.
+- **Slick Carousel**: A responsive carousel component used for creating sliders and showcasing content.
+
+## Features
+
+- **Hero Page**: A captivating introduction to the club with a dynamic slider showcasing key highlights.
+- **About Page**: Detailed information about the club’s mission, vision, and history.
+- **Team Page**: Profiles of our core team members and their roles in the club.
+- **Events Section**: A detailed overview of past and upcoming events, workshops, and meetups.
+- **Technology Section**: Updates and articles on the latest advancements in artificial intelligence.
+- **Community Section**: Information about our club members, collaborations, and community activities.
+- **Gallery**: A collection of photos and videos from our events and meetups.
+- **Sponsored Page**: Information about our sponsors and partnership opportunities.
+- **Collaboration Page**: Details on how to collaborate with us for events and projects.
+- **Contact Us Page**: A section with social media links (Instagram and LinkedIn) and a contact form for inquiries.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following installed on your machine:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js**: Latest version (https://nodejs.org/)
+- **npm**: Node package manager, which is installed with Node.js
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. Clone the repository to your local machine:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/Ridzz110/aic.git
+   cd aic
