@@ -1,0 +1,30 @@
+/* Add this to your global CSS file or as a module */
+.text-shadow-lg {
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .text-shadow-md {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .gradient-text {
+    background: linear-gradient(45deg, #ff6b6b, #f9cb28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes slideInFromBottom {
+    from {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate__slideInFromBottom {
+    animation: slideInFromBottom 1s ease-out;
+  }
+  
