@@ -1,4 +1,7 @@
+'use client'
 import React from "react";
+import { Button } from "../ui/moving-border";
+import { cn } from "@/lib/utils";
 
 const Sponsored = () => {
   return (
@@ -6,17 +9,17 @@ const Sponsored = () => {
       <section id="culture" className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
-                Our Sponsors
-              </div>
+            <div className="space-y-14">
+              < Button className="bg-white font-semibold tracking-wide text-black dark:text-white border-slate-200">
+                Our Sponsors ✨
+              </  Button>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Welcome RAWR, our official AIC sponsor!
               </h2>
             </div>
           </div>
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-            <img src="./rawr.jpg" alt="" />
+            <img src="./rawr.jpg" alt="" className="rounded-2xl shadow-2xl"/>
             <div className="flex flex-col justify-center space-y-4">
               <div className="grid gap-1">
                 <h3 className="text-xl font-bold">

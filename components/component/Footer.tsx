@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-6 px-4 md:px-6 border-t border-gray-700">
+    <footer className="bg-customDarkBlue text-gray-300 py-6 px-4 md:px-6 border-t border-gray-700">
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
         <p className="text-xs text-gray-400 mb-4 sm:mb-0">
           &copy; 2024 AIC. All rights reserved.

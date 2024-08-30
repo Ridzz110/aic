@@ -1,18 +1,20 @@
+'use client'
 import Link from "next/link";
 import React from "react";
-
+import { BackgroundGradient } from "../ui/background-gradient";
+import { cn } from "@/lib/utils";
 const About = () => {
   return (
     <div>
-      <section className="relative w-full pb-12 md:pb-24 lg:pb-32 bg-gradient-to-r from-blue-100 to-blue-300">
+      <section className="relative shadow-lg w-full py-12 md:py-24 lg:py-32">
         <div className="absolute inset-0 bg-[url('/path-to-your-background-image.jpg')] bg-cover bg-center opacity-40"></div>
         <div className="relative z-10 container mx-auto px-6 md:px-12 lg:px-24">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             <div className="flex-1">
-              <h1 className="text-4xl font-bold text-gray-800 sm:text-5xl xl:text-6xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              <h1 className="text-4xl font-bold text-gray-800 sm:text-5xl xl:text-6xl bg-gradient-to-l from-customDarkBlue via-customLightBlue to-customBlue py-2 bg-clip-text text-transparent">
                 Discover Our Artificial Intelligence Club
               </h1>
-              <p className="mt-4 text-lg text-gray-700 md:text-xl">
+              <p className="mt-4 text-lg text-gray-700 md:text-xl font-extralight">
                 AIC x MUET is where aspiring tech leaders come together to shape
                 the future. Not just students, but future tech moguls in the
                 making, our club offers exciting events, innovative workshops,
@@ -22,7 +24,7 @@ const About = () => {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:gap-6">
                 <Link
                   href="/attractionAndCuisine"
-                  className="inline-flex items-center justify-center h-12 px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-lg hover:bg-indigo-700 transition duration-300 ease-in-out transform hover:scale-105"
+                  className="inline-flex items-center justify-center h-12 px-6 py-3 bg-customBlue text-white font-medium rounded-lg shadow-lg hover:bg-customDarkBlue transition duration-300 ease-in-out transform hover:scale-105"
                   prefetch={false}
                 >
                   <span className="mr-2">
@@ -39,7 +41,7 @@ const About = () => {
                 </Link>
                 <Link
                   href="/events"
-                  className="inline-flex items-center justify-center h-12 px-6 py-3 bg-purple-600 text-white font-medium rounded-lg shadow-lg hover:bg-purple-700 transition duration-300 ease-in-out transform hover:scale-105"
+                  className="inline-flex items-center justify-center h-12 px-6 py-3 bg-zinc-800 text-white font-medium rounded-lg shadow-lg hover:bg-zinc-900 transition duration-300 ease-in-out transform hover:scale-105"
                   prefetch={false}
                 >
                   <span className="mr-2">
@@ -56,13 +58,17 @@ const About = () => {
                 </Link>
               </div>
             </div>
+            
             <div className="flex-1 flex justify-center items-center">
+            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
               <img
                 src="/aiclogo.jpg"
-                className="w-full h-auto rounded-lg shadow-lg transition-transform transform hover:scale-105"
+                className="w-full h-auto transition-transform transform hover:scale-105"
                 alt="AIC Logo"
               />
+              </BackgroundGradient>
             </div>
+            
           </div>
         </div>
       </section>

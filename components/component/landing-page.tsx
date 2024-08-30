@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Navbar from "./Navbar";
 import Footer from "./Footer";
 import FullPageSlider from "./FullPageSlider";
 import ContactPage from "./ContactPage";
@@ -16,7 +15,7 @@ export function LandingPage() {
         <title>Aritificai Intelligence Club </title>
       </Head>
       <header>
-        <Navbar />
+       
 
         <FullPageSlider />
       </header>
