@@ -46,7 +46,7 @@ type teamMembers = {
     },
     {
         image: muzammil,
-        name: 'Web Master',
+        name: 'Muzammil',
         designation: 'Web Master',
         quote: 'The best way to predict the future is to create it.'
       },
